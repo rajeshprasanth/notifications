@@ -1,21 +1,12 @@
-# Changelog
+Changelog
+=========
 
-All notable changes to this project will be documented in this file.
+Version: v1.0.0  
+Date: 2025-07-26
 
-## [Unreleased]
-
-## [v1.0.1] - 2025-07-21
-
-### Changed
-- Modified the license details for clarity and correctness.
-  (Commits: 9300b397, 828a7e7b)
-
-### Fixed
-- Minor corrections to README and other files.
-  (Commit: f3a34581)
-
-## [v1.0.0] - 2025-07-20
-
-### Added
-- Initial commit with base project files including README.md.
-  (Commit: 534a3871)
+- Added initial Bash script for sending notifications to Telegram and Slack
+- Environment-based routing support (dev/prod)
+- Configuration via .env file
+- Validation: script fails if .env or required variables are missing
+- Timestamps added to messages using the 'date' command
+- Suitable for CI/CD pipelines, monitoring alerts, and system events
