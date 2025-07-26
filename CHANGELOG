@@ -1,0 +1,21 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [Unreleased]
+
+## [v1.0.1] - 2025-07-21
+
+### Changed
+- Modified the license details for clarity and correctness.
+  (Commits: 9300b397, 828a7e7b)
+
+### Fixed
+- Minor corrections to README and other files.
+  (Commit: f3a34581)
+
+## [v1.0.0] - 2025-07-20
+
+### Added
+- Initial commit with base project files including README.md.
+  (Commit: 534a3871)
