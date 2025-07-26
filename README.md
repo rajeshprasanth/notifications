@@ -2,7 +2,7 @@
 
 This Bash script sends notifications to **Telegram** and **Slack** based on the provided environment (`dev` or `prod`). It's useful for CI/CD pipelines, monitoring alerts, or system events.
 
-> ⚠️ **Sensitive information (tokens/webhooks) are currently hardcoded.** It's recommended to use environment variables or secret management in production.
+> ⚠️ **Sensitive information (tokens/webhooks) are no longer hardcoded.** It's recommended to use environment variables or secret management in production.
 
 ---
 
